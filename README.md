@@ -3,5 +3,5 @@
 Topics to consider reviewing in our hour together:
 
 * [ ] Higher Order and Callback Functions
-* [ ] Aysynchronous Flow
+* [ ] Asynchronous Flow
 * [ ] Promises

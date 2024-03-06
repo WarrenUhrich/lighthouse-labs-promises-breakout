@@ -1,0 +1,25 @@
+<!-- /views/movie-villains/two-villains.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Two Villains</title>
+    </head>
+    <body>
+        <h1>Two Villains</h1>
+        <h2>
+            <%= villain1.name %>
+            <em>(<%= villain1.movie %>)</em>
+        </h2>
+        <h2>
+            <%= villain2.name %>
+            <em>(<%= villain2.movie %>)</em>
+        </h2>
+        <nav>
+            <a href="/movie-villains/">
+                Return to Movie Villains Index
+            </a>
+        </nav>
+    </body>
+</html>
